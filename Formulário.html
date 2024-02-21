@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <link rel="stylesheet" href="Formulário.css">
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+    <h2>Preencha com seus dados</h2>
+
+    <form>
+        <!-- "label" serve para criar o texto antes do bloco-->
+        <label for="nome">Nome Completo</label>
+        <input type="text" required> <br> <br>
+        <!-- Já o input, como o nome já diz, coloca algo, abre um bloco para pode ser escrito alguma coisa -->
+
+           <!-- "Required" serve para tornar o input importante, impossivel de deixar sem preencher-lo -->
+        <label for="email">E-mail</label>
+        <input type="email" required> <br> <br>
+        
+        <label for="endereco">Endereço</label>
+        <input type="text" placeholder="Nome da rua, nº"> <br> <br>
+        <!-- "Placeholder" como já fiz é um exemplo, algo para "tapar buraco" -->
+        
+        <label for="cidade">Cidade</label>
+        <input type="text" placeholder="ex: São Paulo/SP"> <br> <br>
+        
+        <label for="telefone">Telefone/Celular</label>
+        <input type="number" placeholder="(00) 00000-0000" required> <br> <br>
+        
+        <label for="usuario">Usuário</label>
+        <input type="text" placeholder="ex: Paulo_Lima" required> <br> <br>
+        
+        <label for="senha">Senha</label>
+        <input type="password" required> <br> <br>
+
+        <input type="submit" value="FINALIZAR CADASTRO">
+                
+        <input type="reset" value="REDEFINIR">
+    </form>
+</body>
+</html>
