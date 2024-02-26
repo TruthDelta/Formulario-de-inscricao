@@ -11,7 +11,7 @@
 
     <h2>Preencha com seus dados</h2>
 
-    <form>
+    <form class="form-ins">
         <!-- "label" serve para criar o texto antes do bloco-->
         <label for="nome">Nome Completo</label>
         <input type="text" required> <br> <br>
@@ -45,10 +45,12 @@
         
         <label for="senha">Senha</label>
         <input type="password" required> <br> <br>
-
-        <input type="submit" value="FINALIZAR CADASTRO">
-                
-        <input type="reset" value="REDEFINIR">
+        <div class="final"> 
+            <!-- Agrupa conteúdo -->
+            <input type="submit" value="FINALIZAR CADASTRO">
+                    
+            <input type="reset" value="REDEFINIR">
+        </div>
     </form>
 </body>
 </html>
